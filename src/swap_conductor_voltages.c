@@ -1,5 +1,5 @@
 /* atlc - arbitrary transmission line calculator, for the analysis of
-transmission lines are directional couplers. 
+transmission lines are directional couplers.
 
 Copyright (C) 2002. Dr. David Kirkby, PhD (G8WRB).
 
@@ -18,7 +18,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307,
 USA.
 
-Dr. David Kirkby, e-mail drkirkby at gmail.com 
+Dr. David Kirkby, e-mail drkirkby at gmail.com
 
 */
 
@@ -36,7 +36,7 @@ CONDUCTOR_MINUS_ONE_V in definitions.h */
 #include "definitions.h"
 
 extern int width, height;
-unsigned char **oddity;
+extern unsigned char **oddity;
 extern double **Vij;
 
 /* This swaps any conductor orignally at -1 V to +1 V. Any
